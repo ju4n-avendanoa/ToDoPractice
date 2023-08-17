@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background-color: darkslategray;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.add-btn,
+input {
+  border: 2px solid black;
+  height: 2.5rem;
+  padding: 4px;
+  border-radius: 0.5rem;
+}
+
+input {
+  width: 70vw;
+}
+
+.add-btn {
+  background-color: darkcyan;
+  color: white;
+  width: 40vw;
+}
+
+.list {
+  display: flex;
+  margin: 20px;
+  border: 2px solid darkcyan;
+  gap: 20px;
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.list li {
+  flex: 7;
+  padding: 10px;
+  list-style: none;
+}
+
+.list button {
+  flex: 3;
+  margin: 5px;
+  background-color: red;
+  border-radius: 0.5rem;
+  color: white;
+  border: 2px solid black;
+  width: auto;
+  height: 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px;
+}
+
+@media (min-width: 1024px) {
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .add-btn {
+    width: 20vw;
+  }
+
+  .list {
+    display: flex;
+  }
+
+  .delete-btn {
+    width: 10vw;
+  }
+}
+@media (min-width: 1440px) {
+  ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
