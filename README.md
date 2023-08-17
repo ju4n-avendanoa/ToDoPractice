@@ -1,8 +1,10 @@
-# React + Vite
+# ToDoPractice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ToDoPractice es una aplicación simple de lista de tareas desarrollada en React que te permite mantener un registro de tus tareas pendientes y completadas. Es una excelente manera de practicar habilidades de programación y familiarizarse con React.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Agrega nuevas tareas 
+- Elimina tareas que ya no necesitas.
+
+
